@@ -1,0 +1,23 @@
+{
+  "name": "sistema_login_autenticacao",
+  "version": "1.0.0",
+  "description": "Sistema de login com Autenticação JWT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest --coverage"
+  },
+  "author": "Sebastiao Soares",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "expres": "^0.0.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "nodemailer": "^6.9.16"
+  }
+}

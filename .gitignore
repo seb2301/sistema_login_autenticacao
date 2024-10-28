@@ -128,3 +128,54 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Node.js specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build directories
+build/
+dist/
+
+# Logs
+logs
+*.log
+
+# dotenv environment variables
+.env
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Editor specific
+.vscode/
+.idea/
+
+# Dependency directories
+frontend/node_modules/
+backend/node_modules/
+
+# Miscellaneous
+coverage/
+*.pem
+
+# Cache files
+.cache/
+
+# Ignore public build folder
+frontend/build/
+
+# Ignore MongoDB data files (if applicable)
+data/db
+
+# Ignore generated tokens
+*.token
+
+# React specific
+src/**/*.test.js
+src/serviceWorker.js
